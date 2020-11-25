@@ -1,8 +1,8 @@
 ---
 title: a11y-hidden
 date: 2020-10-22 20:11:14
-categories: HTML
-tags: html
+categories: CSS
+tags: css
 ---
 
 # a11y-hidden

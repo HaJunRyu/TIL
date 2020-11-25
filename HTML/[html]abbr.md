@@ -1,3 +1,10 @@
+---
+title: abbr(abbreviation)
+date: 2020-10-20 21:54:09
+categories: HTML
+tags: html
+---
+
 # abbr(abbreviation)
 
 - 축약어를 쓸 때 사용하는 태그다.

@@ -1,3 +1,10 @@
+---
+title: 새로운 표준 HTML5
+date: 2020-10-19 22:32:09
+categories: HTML
+tags: html
+---
+
 # 새로운 표준 HTML5
 
 ## 시맨틱(semantic)태그를 사용

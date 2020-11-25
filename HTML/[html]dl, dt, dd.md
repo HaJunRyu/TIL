@@ -1,5 +1,5 @@
 ---
-title: a11y-hidden
+title: dl, dt, dd 태그
 date: 2020-10-23 22:30:14
 categories: HTML
 tags: html
