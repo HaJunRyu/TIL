@@ -8,7 +8,6 @@ function bubbleSort1(array) {
       i = -1;
     }
   }
-  
   return array;
 }
 
@@ -38,7 +37,7 @@ console.log(bubbleSort1([2, 4, 5, 1, 3])); // [1, 2, 3, 4, 5]
 console.log(bubbleSort1([5, 2, 1, 3, 4, 6])); // [1, 2, 3, 4, 5, 6]
 console.log(bubbleSort1([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
 
-console.log(bubbleSort1(array)); // 벤치마킹 결과 너무 느림
+console.log(bubbleSort1(array)); // 벤치마킹 결과 말도 안되게 느림 배열 length 500개 이상시 아래 함수호출의 100분 1 수준
 console.log(bubbleSort2(array)); // 지금으로썬 최선의 코드라고 생각
 
 // // for문 1개 사용해서 퍼포먼스도 나오는 코드 고민중
@@ -51,7 +50,7 @@ console.log(bubbleSort2(array)); // 지금으로썬 최선의 코드라고 생�
 //       array[i] = changeNum;
 //       i = -1;
 //     }
-//     length --;
+//     length--;
 //   }
 //   return array;
 // }
