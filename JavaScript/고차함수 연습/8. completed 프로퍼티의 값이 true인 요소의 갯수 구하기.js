@@ -12,4 +12,4 @@ function countCompletedTodos() {
   return todos.reduce((acc, { completed }) => completed ? ++acc : acc, 0);
 }
 
-console.log(countCompletedTodos()); // 1
+console.log(countCompletedTodos());

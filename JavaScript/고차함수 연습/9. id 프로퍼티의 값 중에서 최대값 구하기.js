@@ -9,4 +9,4 @@ function getMaxId() {
   return Math.max(...todos.map(({ id }) => id));
 }
 
-console.log(getMaxId()); // 3
+console.log(getMaxId());
