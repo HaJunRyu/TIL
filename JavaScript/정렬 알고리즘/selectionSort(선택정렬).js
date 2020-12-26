@@ -2,13 +2,10 @@
 
 // 처음 코드 (정렬은 되지만 주어진 조건(그림)대로 동작하지 않고 정렬순서가 다름)
 function selectionSort1(arr) {
-  let temp = 0;
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] > arr[j]) {
-        temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+        [arr[i], arr[j]] = [arr[j], arr[i]];
       }
     }
   }
@@ -22,9 +19,7 @@ function selectionSort2(arr) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] < arr[minNumIdx]) minNumIdx = j;
     }
-    const temp = arr[i];
-    arr[i] = arr[minNumIdx];
-    arr[minNumIdx] = temp;
+    [arr[i], arr[minNumIdx]] = [arr[minNumIdx], arr[i]];
   }
   return arr;
 }
