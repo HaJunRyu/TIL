@@ -54,4 +54,3 @@ console.log(bubbleSort2(array)); // 지금으로썬 최선의 코드라고 생�
 //   }
 //   return array;
 // }
-
