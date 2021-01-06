@@ -5,8 +5,7 @@
 
 function checkPalindrom(str = '') {
   const reverseStr = [...str].reverse().join('');
-  if (str === reverseStr) return true;
-  return false;
+  return str === reverseStr ? true : false;
 }
 
 console.log(checkPalindrom('dad')); // true
