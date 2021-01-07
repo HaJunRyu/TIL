@@ -8,15 +8,13 @@
 
 function isNotOverlapArray(array) {
   array.sort((num1, num2) => num1 - num2);
-  let result = true;
   for (let i = 0; i < array.length - 1; i++) {
-    result = array[i] + 1 === array[i + 1];
-    if (!result) return result;
+    if (array[i] + 1 !== array[i + 1]) return false;
   }
-  return result;
+  return true;
 }
 
 console.log(isNotOverlapArray([4, 1, 3, 2])); // true
 console.log(isNotOverlapArray([4, 1, 3]));    // false
 console.log(isNotOverlapArray([4, 1, 1, 3]));    // false
-console.log(isNotOverlapArray([4, 2, 1, 3, 5]));    // false
+console.log(isNotOverlapArray([4, 2, 1, 3, 5])); // true
