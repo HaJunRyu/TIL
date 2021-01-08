@@ -1,10 +1,3 @@
----
-title: dl, dt, dd 태그
-date: 2020-10-23 22:30:14
-categories: HTML
-tags: html
----
-
 # dl, dt, dd 태그
 
 - dl, dt, dd는 용어의 설명(설명 목록)을 쓸때 사용한다.

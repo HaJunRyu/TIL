@@ -1,10 +1,3 @@
----
-title: vertical-align
-date: 2020-10-28 10:01:34
-categories: CSS
-tags: css
----
-
 # Vertical-align
 
 ## 사용법 및 정의

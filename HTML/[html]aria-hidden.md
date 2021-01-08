@@ -1,10 +1,3 @@
----
-title: aria-hidden
-date: 2020-10-20 22:32:09
-categories: HTML
-tags: html
----
-
 # ARIA(Accessible Rich Internet Applications)
 
 

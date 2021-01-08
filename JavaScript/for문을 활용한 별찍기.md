@@ -1,10 +1,3 @@
----
-title: for문을 활용한 별찍기
-date: 2020-11-22 17:47:31
-categories: js
-tags: js
----
-
 # for문을 활용한 별찍기
 - 공통 조건 : console.log를 여러번 찍는게 아닌 각 행마다 개행문자('/n')를 사용하여 하나의 변수에 담은 후 마지막 한번 console.log를 사용해준다.
 

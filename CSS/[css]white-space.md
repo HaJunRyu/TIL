@@ -1,10 +1,3 @@
----
-title: white-space
-date: 2020-10-21 22:09:14
-categories: CSS
-tags: css
----
-
 # white-space
 
 - 이름대로 요소가 공백 문자를 처리하는 법을 지정하는 속성이다.

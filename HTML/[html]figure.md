@@ -1,10 +1,3 @@
----
-title: figure
-date: 2020-10-30 09:58:42
-categories: HTML
-tags: html
----
-
 # figure
 
 ## 사용법 및 정의

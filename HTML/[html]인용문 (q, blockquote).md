@@ -1,10 +1,3 @@
----
-title: 인용문(q, blockquote)
-date: 2020-11-01 18:40:23
-categories: HTML
-tags: html
----
-
 # 인용문(q, blockquote)
 
 ## 사용법 및 정의

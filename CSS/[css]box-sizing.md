@@ -1,10 +1,3 @@
----
-title: box-sizing
-date: 2020-10-21 20:42:42
-categories: CSS
-tags: css
----
-
 # box-sizing
 
 - box-sizing은 요소의 크기를 계산하는 기준(화면에 표시되는 방식)을 지정해주는 속성이다. 3가지 속성이 있지만 호환성의 문제때문에 대표적으로는 2가지가 쓰인다.

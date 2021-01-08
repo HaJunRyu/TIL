@@ -1,10 +1,3 @@
----
-title: margin collapse(마진 병합, 상쇄)
-date: 2020-10-25 22:25:34
-categories: CSS
-tags: css
----
-
 # margin collapse(마진 병합, 상쇄)
 - 특정 margin값들이 서로 만났을때 중복 되어지는 현상이다. 중복이라고 해서 서로의 값이 합쳐지는것이 아닌 하나의 margin으로 적용된다.
 
