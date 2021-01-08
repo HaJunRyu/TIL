@@ -8,7 +8,10 @@
 function getRestCoordinate(array) {
   const flatArr = array.flat();
   const overlap = flatArr.filter((v, i, arr) => arr.indexOf(v) !== i);
-  return flatArr.filter(v => v !== overlap[0] && v !== overlap[1]);
+  let result = flatArr.filter(v => v !== overlap[0] && v !== overlap[1]);
+  return result;
 }
+
 console.log(getRestCoordinate([[1, 4], [3, 4], [3, 10]])); // [1, 10]
 console.log(getRestCoordinate([[100, 200], [800, 200], [100, 1000]])); // [800, 1000]
+console.log(getRestCoordinate([[6, 2], [4, 1], [6, 1]])); // [4, 2]
