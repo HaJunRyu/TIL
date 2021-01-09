@@ -14,4 +14,4 @@ function getRestCoordinate(array) {
 
 console.log(getRestCoordinate([[1, 4], [3, 4], [3, 10]])); // [1, 10]
 console.log(getRestCoordinate([[100, 200], [800, 200], [100, 1000]])); // [800, 1000]
-console.log(getRestCoordinate([[6, 2], [4, 1], [6, 1]])); // [4, 2]
+console.log(getRestCoordinate([[6, 2], [4, 1], [6, 1]])); // [2, 4] => bug
