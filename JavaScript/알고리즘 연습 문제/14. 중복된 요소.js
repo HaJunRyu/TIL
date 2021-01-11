@@ -5,7 +5,10 @@
 */
 
 function findDuplicated(array) {
-  return array.filter((value, index) => array.indexOf(value) !== index);
+  return array.filter((value, index) => array.indexOf(value) !== index)
+  .filter((value, index, arr) => arr.indexOf(value) === index);
 }
 
 console.log(findDuplicated([1, 2, 3, 4, 1, 2, 3])); // [ 1, 2, 3 ]
+console.log(findDuplicated([2, 2, 2, 3, 3, 4, 5, 6])); // [ 1, 2, 3 ]
+console.log(findDuplicated([1, 1, 1, 1, 1, 2, 2, 3, 3, 4, 5, 6])); // [ 1, 2, 3 ]
