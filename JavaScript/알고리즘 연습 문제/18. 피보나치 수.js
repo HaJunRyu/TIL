@@ -6,7 +6,7 @@
 */
 
 function fibonacci(n) {
-  let arr = [];
+  const arr = [];
   for (let i = 0; i <= n; i++) arr.push(i);
 
   for (let i = 1; i < arr.length - 1; i++) {

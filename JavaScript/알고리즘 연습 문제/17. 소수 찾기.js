@@ -8,7 +8,7 @@
 */
 
 function numberOfPrime(n) {
-  let arr = [];
+  const arr = [];
 
   for (let i = 2; i <= n; i++) arr.push(i);
 

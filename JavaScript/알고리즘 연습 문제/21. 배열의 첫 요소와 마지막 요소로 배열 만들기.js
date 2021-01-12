@@ -11,7 +11,7 @@ function generateRange1(from, to) {
 }
 
 function generateRange2(from, to) {
-  const res = Array.from({length: to - from + 1}).fill(0);
+  const res = Array.from({ length: to - from + 1 }).fill(0);
   return res.map((_, i) => i + from);
 }
 

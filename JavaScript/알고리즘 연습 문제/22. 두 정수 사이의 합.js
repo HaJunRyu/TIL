@@ -6,9 +6,9 @@
   예를 들어 x가 3, y가 5이면 12를 리턴한다.
 */
 
-function adder(x, y){
+function adder(x, y) {
   let result = 0;
-  if (x > y) [x, y] = [y, x];
+  if (x > y)[x, y] = [y, x];
   for (let i = x; i <= y; i++) result += i;
   return result;
 }

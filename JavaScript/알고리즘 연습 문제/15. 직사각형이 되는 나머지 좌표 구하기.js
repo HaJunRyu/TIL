@@ -6,7 +6,7 @@
 function getRestCoordinate(array) {
   const flatArr = array.flat();
   const overlap = flatArr.filter((v, i, arr) => arr.indexOf(v) !== i);
-  let result = flatArr.filter(v => v !== overlap[0] && v !== overlap[1]);
+  const result = flatArr.filter(v => v !== overlap[0] && v !== overlap[1]);
   return result;
 }
 

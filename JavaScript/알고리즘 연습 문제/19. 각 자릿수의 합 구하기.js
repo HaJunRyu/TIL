@@ -16,8 +16,8 @@ function digitSum(n) {
   return result;
 }
 
-console.log(digitSum(123));  // 6
-console.log(digitSum(987));  // 24
-console.log(digitSum(1024));  // 7
-console.log(digitSum(984242));  // 29
-console.log(digitSum(100000001));  // false
+console.log(digitSum(123)); // 6
+console.log(digitSum(987)); // 24
+console.log(digitSum(1024)); // 7
+console.log(digitSum(984242)); // 29
+console.log(digitSum(100000001)); // false
