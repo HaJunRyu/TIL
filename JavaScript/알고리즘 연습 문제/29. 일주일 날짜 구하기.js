@@ -3,37 +3,18 @@
   단, 함수가 반환하는 배열은 일요일부터 시작해서 토요일까지 구성한다.
 */
 
-// Array 함수를 활용한 풀이
-function getCurrentWeek1() {
-  const today = new Date('2020/04/21/10:00:00');
-
-  let result = Array.from({ length: 7 }).fill('');
+function getCurrentWeek() {
+  const today = new Date();
 
   today.setDate(today.getDate() - today.getDay());
 
-  result = result.map((_, i) => {
+  return Array.from({ length: 7 }, (_, i) => {
     if (i !== 0) today.setDate(today.getDate() + 1);
     return today.toISOString().substring(0, 10);
   });
-  return result;
 }
 
-// 처음 풀이
-function getCurrentWeek2() {
-  const today = new Date('2021/01/22/01:22:00');
-
-  const result = [];
-
-  today.setDate(today.getDate() - today.getDay());
-
-  for (let i = 0; i < 7; i++) {
-    today.setDate(today.getDate() + 1);
-    result.push(today.toISOString().substring(0, 10));
-  }
-  return result;
-}
-
-console.log(getCurrentWeek1());
+console.log(getCurrentWeek());
 /*
 오늘이 2020-04-21인 경우,
 [
@@ -46,16 +27,17 @@ console.log(getCurrentWeek1());
   '2020-04-25'
 ]
 */
-console.log(getCurrentWeek2());
+
+console.log(getCurrentWeek());
 /*
-오늘이 2021-01-22인 경우,
+현재 날짜(2021년 1월 16일) 기준
 [
-  '2021-01-17',
-  '2021-01-18',
-  '2021-01-19',
-  '2021-01-20',
-  '2021-01-21',
-  '2021-01-22',
-  '2021-01-23'
+  '2021-01-10',
+  '2021-01-11',
+  '2021-01-12',
+  '2021-01-13',
+  '2021-01-14',
+  '2021-01-15',
+  '2021-01-16'
 ]
 */
