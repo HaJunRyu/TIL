@@ -1,10 +1,3 @@
----
-title: 이진검색(binarySearch)
-date: 2020-11-29 02:08:41
-categories: js
-tags: js
----
-
 # 이진검색(binarySearch)
 
 ## 조건
@@ -20,9 +13,6 @@ tags: js
   - 검색 대상 값을 검색할 때까지 이와 같은 처러를 반복한다.
 
 - 시간 복잡도: O(log n)
-
-![이진검색 알고리즘의 동작방식](https://user-images.githubusercontent.com/71176945/100521666-63b65700-31e8-11eb-9b64-690a1e826154.PNG)
-<cite>사진 출처 - poiemaweb.com</cite>
 
 - 이진 검색을 통해 주어진 배열(array)에 주어진 값(target)이 요소로 존재하는지 확인하여 존재하는 경우 해당 인덱스를 반환하고 존재하지 않는 경우 -1을 반환하는 함수를 구현하라. 단, 아래의 빌트인 함수 이외에는 어떤 빌트인 함수도 사용하지 않아야 하며, while 문을 사용하여 구현하여야 한다.
 
