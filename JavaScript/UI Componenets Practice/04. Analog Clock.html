@@ -149,9 +149,16 @@
     const $minute = document.querySelector('.minute');
     const $second = document.querySelector('.second');
 
-    let hour = +getComputedStyle($hour).getPropertyValue('--deg');
-    let minute = +getComputedStyle($minute).getPropertyValue('--deg');
-    let second = +getComputedStyle($second).getPropertyValue('--deg');
+    const date = new Date();
+
+    let hour = 30 * date.getHours() + 0.5 * date.getMinutes() + (360 / ((60 * 60 * 12) * date.getSeconds()));
+    let minute = 6 * date.getMinutes() + (0.1 * date.getSeconds());
+    let second = 6 * date.getSeconds();
+
+    // 렌더링 되고 setIntevar의 콜백함수가 호출되기 전 딜레이 방지
+    $hour.style.setProperty('--deg', hour);
+    $minute.style.setProperty('--deg', minute);
+    $second.style.setProperty('--deg', second);
 
     setInterval(() => {
       hour += 360 / (60 * 60 * 12);
@@ -160,6 +167,6 @@
       $hour.style.setProperty('--deg', hour);
       $minute.style.setProperty('--deg', minute);
       $second.style.setProperty('--deg', second);
-    }, 4);
+    }, 1000);
   </script>
 </html>
